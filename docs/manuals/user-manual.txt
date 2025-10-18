@@ -1,0 +1,2416 @@
+User Manual
+for
+
+OrangeHRM & OrangeHRM Live
+
+Table of Contents
+1.0 Audience ........................................................................................................................................6
+2.0 Foreword.........................................................................................................................................6
+Admin Module.................................................................................................................................6
+PIM – Personal Information Module...............................................................................................7
+ESS - Employee Self Service...........................................................................................................7
+Leave Module..................................................................................................................................7
+Time Module....................................................................................................................................7
+Benefits Module...............................................................................................................................8
+Recruitment Module........................................................................................................................8
+Training Module..............................................................................................................................8
+Budget Module................................................................................................................................8
+Reports Module................................................................................................................................8
+Bug Tracker......................................................................................................................................8
+3.0 Login, Log Out & Changing your Password..................................................................................9
+Changing Your Password.................................................................................................................9
+Logging Out...................................................................................................................................10
+4.0 Admin Module .............................................................................................................................11
+Company Info................................................................................................................................12
+General......................................................................................................................................12
+Locations ..................................................................................................................................12
+Company Structure...................................................................................................................13
+Company Property....................................................................................................................15
+Job..................................................................................................................................................16
+Job Specifications.....................................................................................................................16
+Pay Grades................................................................................................................................17
+Employment Status ..................................................................................................................19
+EEO Job Categories .................................................................................................................20
+Licenses ....................................................................................................................................21
+Qualification..................................................................................................................................22
+Education..................................................................................................................................22
+Licenses ....................................................................................................................................23
+Skills..............................................................................................................................................24
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Skills..........................................................................................................................................24
+Languages ................................................................................................................................25
+Memberships..................................................................................................................................26
+Membership Types ...................................................................................................................26
+Memberships ............................................................................................................................27
+Nationality and Race......................................................................................................................28
+Nationality.................................................................................................................................28
+Ethnic Races .............................................................................................................................29
+Users .............................................................................................................................................30
+HR Admin Users.......................................................................................................................30
+ESS Users..................................................................................................................................31
+Admin User Groups..................................................................................................................32
+Email Notifications........................................................................................................................35
+Configuration ...........................................................................................................................35
+Subscribe .................................................................................................................................36
+Project Info....................................................................................................................................37
+Customers..................................................................................................................................37
+Projects......................................................................................................................................38
+Project Activities ......................................................................................................................39
+Data Import / Export......................................................................................................................41
+Define Custom Export..............................................................................................................41
+Export........................................................................................................................................42
+Define Custom Import .............................................................................................................44
+Import .......................................................................................................................................45
+Custom Fields...........................................................................................................................46
+Audit Trail......................................................................................................................................48
+Bulletins/News...............................................................................................................................49
+HR Forms & Policies...............................................................................................................50
+Notifications ..................................................................................................................................52
+5.0 PIM Module..................................................................................................................................53
+Employee List ...............................................................................................................................53
+Add Employee ..............................................................................................................................53
+Personal details.........................................................................................................................55
+Contact Details..........................................................................................................................56
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Emergency Contacts .................................................................................................................57
+Dependants ...............................................................................................................................58
+Immigration ..............................................................................................................................59
+Photograph ...............................................................................................................................60
+Job.............................................................................................................................................61
+Salary........................................................................................................................................62
+Tax Exemptions ........................................................................................................................63
+Direct Deposit...........................................................................................................................64
+Report-To..................................................................................................................................65
+Work Experience ......................................................................................................................66
+Education..................................................................................................................................67
+Skills..........................................................................................................................................68
+Languages ................................................................................................................................69
+License .....................................................................................................................................70
+Memberships.............................................................................................................................71
+Attachments .............................................................................................................................72
+Custom......................................................................................................................................73
+Training Courses.......................................................................................................................73
+6.0 Leave Module...............................................................................................................................74
+Leave Summary ............................................................................................................................75
+Employee Leave Summary.......................................................................................................75
+Personal Leave Summary .............................................................................................................76
+Define Days Off ............................................................................................................................76
+Weekends .................................................................................................................................77
+Specific Holidays .....................................................................................................................77
+Define Leave Types ......................................................................................................................78
+Assign Leave .................................................................................................................................79
+Apply.............................................................................................................................................80
+Leave List .....................................................................................................................................80
+My Leave ......................................................................................................................................81
+Leave Calendar .............................................................................................................................82
+7.0 Time Module................................................................................................................................83
+Time sheets ...................................................................................................................................83
+Entering and Submitting a Timesheet ......................................................................................84
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Approving Employee Timesheets ............................................................................................85
+Print Timesheets........................................................................................................................87
+Attendance ..............................................................................................................................88
+Configuration ...........................................................................................................................88
+Punch In/Out..................................................................................................................................89
+Employee Reports.....................................................................................................................89
+My Reports....................................................................................................................................90
+Employee Reports .........................................................................................................................90
+Project Reports...............................................................................................................................91
+Work Shifts ...................................................................................................................................92
+8.0 Benefits Module...........................................................................................................................94
+Health Savings Plan.......................................................................................................................94
+Define HSP...............................................................................................................................94
+Request HSP.............................................................................................................................95
+Employee HSP Summary..........................................................................................................96
+HSP Payments Due...................................................................................................................96
+HSP Expenditures ....................................................................................................................97
+HSP Used..................................................................................................................................98
+Personal HSP Summary............................................................................................................98
+Payroll Schedule............................................................................................................................98
+View Payroll Schedule .............................................................................................................99
+Add Pay Period.........................................................................................................................99
+9.0 Recruitment Module...................................................................................................................101
+Job Vacancies...............................................................................................................................101
+Applying for a Vacancy ..............................................................................................................102
+Applicants ...................................................................................................................................103
+Reject .....................................................................................................................................104
+Schedule an Interview.............................................................................................................105
+Offer Job..................................................................................................................................107
+Mark Offer Declined ..............................................................................................................108
+Seek Approval ........................................................................................................................109
+Event History & Details..........................................................................................................110
+Configure Application..................................................................................................................111
+Confirmation Email.....................................................................................................................112
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+10.0 Training Module.......................................................................................................................113
+Adding Training Requests............................................................................................................113
+11.0 Budgets Module........................................................................................................................114
+Configuring Job Titles..................................................................................................................114
+Adding Budgets...........................................................................................................................115
+12.0 ESS...........................................................................................................................................116
+13.0 Reports Module .......................................................................................................................118
+Define Reports ............................................................................................................................118
+View Reports................................................................................................................................120
+14.0 Bug Tracker .............................................................................................................................121
+15.0 Help .........................................................................................................................................122
+Help Contents .............................................................................................................................122
+Support.........................................................................................................................................122
+Forum...........................................................................................................................................122
+Blog..............................................................................................................................................122
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+1.0 Audience
+This document is intended as a complete guide for using OrangeHRM 2.5. This document is
+specially designed for non-specialists; specialists may find the document a useful point of reference.
+By reading this guide, you will learn how to use OrangeHRM through the elements of the graphical
+user interface and what's behind some of the advanced features that are not always obvious at first
+sight. It will hopefully guide you around some common problems that frequently appear for users of
+OrangeHRM.
+This document is an effort by the OrangeHRM team to improve the usability of OrangeHRM.
+We hope that you find it useful, and look forward to your comments.
+
+2.0 Foreword
+The next generation HR system OrangeHRM will change the way your company managed a vital
+asset of your company. Since 2006 Orange HRM has been researching and working on a way to
+produce a cost effective system to re-engineer your HR process. As a result of your contributions,
+support and our hard work, we are proud to bring you our latest release 2.5. With an improved and
+highly user friendly interface this new version is backed by many more new features.
+The module based architecture has been a key user-friendly feature. The modules are as follows.
+
+Admin Module
+The Admin Module provides you with full control of all settings that affect the action of your
+OrangeHRM implementation. Through the Admin Module, you can:
+•
+
+Define the company hierarchy, pay grades, projects, memberships, qualifications etc.
+
+•
+
+Add other administrators, and set access levels for each user
+
+•
+
+Handling security issues
+
+•
+
+Data importing and exporting
+
+•
+
+Adding custom fields
+
+•
+
+Store HR Policies & Forms
+
+•
+
+Submit Bulletins & News
+
+•
+
+Configure notifications
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+The Admin Module is the backbone of the system and setting it up accurately is important for
+smooth operation.
+
+PIM – Personal Information Module
+This module maintains all relevant employee related information. All information about an
+employee can be entered here. Information captured in this module is utilized by all other modules,
+thus eliminating data redundancy. The PIM Module will be available to the admin with full control
+and supervisors with restricted access showing his subordinates.
+
+ESS - Employee Self Service
+A module available to general users allowing them to update vital information like contact details,
+education, skills, licenses etc. Certain fields that are defined by the admin cannot be changed e.g.
+Job and Salary.
+The functionality of this module spans through the entire system, making information
+available anywhere, anytime. All information is subject to company defined security policy,
+where everyone can only view the information he/she is authorized to.
+
+Leave Module
+The Leave Module automates the HR administrative tasks of recording leave and controlling these
+against leave policies defined in the HR system. The module provides flexibility in allowing you to
+define various types of Leave, including Annual Leave, Sick Leave, Travel leave etc. The Leave
+Module has the ability to send notifications to covering officers and allows you to record, track
+leave and view leave history.
+The web-enabled and self-service concepts significantly streamline all leave related procedures,
+eliminate paperwork and saves costs.
+
+Time Module
+Business-critical operations require reliable tracking and control in order to maximize profits and
+reduce operational costs. A time management tool is one of the vital employee work time
+management features that make the entire difference between successful HR-Management and a
+weak one.
+The Time module automates the time tracking process. While allowing the employee to define and
+submit their time sheets the supervisors can approve/reject or even modify them.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+The employee will enter the punch in/out time hence allowing attendance monitoring. The Time
+module has the ability to track time spent on specific projects while project mangers can define
+projects.
+
+Benefits Module
+Integrated platform to manage benefit-related tasks. Covers medical and welfare benefits‚ with
+possibilities to define new benefits‚ by type‚ provider and several other areas. Assigning benefits to
+employees happens in a variety of ways‚ individually‚ designation-wise or other. Benefits history
+and other information can be displayed through rich reporting capabilities.
+
+Recruitment Module
+Comprehensive solution for the entire recruitment process‚ including requests for staff‚ approval of
+vacancies‚ entering requirements‚ capturing candidates information‚ short-listing‚ interview notes
+and other features. The module also allows HR professionals to generate templates and
+documentation to streamline the whole recruitment process.
+
+Training Module
+This simple module allows to organize training programs for employees and records them in the
+PIM module.
+
+Budget Module
+The budget module allows you manage and track expenses of divisions or departments in your
+company.
+
+Reports Module
+Easy to use stand alone reports can be generated to meet your needs. While the number of reports is
+unlimited definitions can be saved to avoid duplication. Using various logical data combinations
+you can create reports to suit the purpose.
+
+Bug Tracker
+The Bug Tracker is integrated to report any bug that you come across. This feature will make sure
+that bugs are brought to our knowledge as soon as possible so that we can fix them promptly.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+3.0 Login, Log Out & Changing your Password
+ Open your browser and enter the URL for OrangeHRM e.g.
+http://orangehrm.orangehrmlive.com
+ Enter the password and username.
+
+Enter Username
+and Password
+
+Figure 3.0
+
+Changing Your Password
+Your password can be changed at anytime. Click on the “Change Password” link on the top right
+hand side as shown in the figure.
+
+Figure 3.2
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+To change your password:
+ Enter your current password next to “Old Password”
+ Then enter the new password you intend to use next to “New Password”
+ Re-enter the new password next to “Confirm New Password”
+
+Figure 3.3
+
+Logging Out
+To log out of the system you can click “Logout”.
+
+Figure 3.4
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+4.0 Admin Module
+The Admin Module, the main point of control for the whole system. All administrative tasks such as
+configuring job titles, creating user accounts monitoring the audit trail and many other system
+management tasks are performed on the Admin Module.
+The Admin Module allows you to Import and Export details to/from the PIM Module; this module
+also gives you the option of defining user rights.
+Company Info - Allows you to enter/store general company info, structure
+of the organization, locations of sites and property details.
+Job – Define job tiles, specifications, pay grades, employment status and
+EEO job categories.
+Qualification – Define various qualifications and license types.
+Skills – Define skill sets and languages.
+Memberships – Define membership types and memberships.
+Nationality & Race – Define nationalities and ethnic races
+Users – You can add multiple HR Admins who will control the system,
+create logins for general users through ESS Users and you can set access
+levels for the HR Admins by adding admin user groups.
+Email Notifications – Configure all email notifications.
+Project Info – Add customers, projects, project administrators and the
+activities for projects.
+Data Import/Export – You can import Employee Information into the PIM Module into or csv
+files.
+Custom Fields – Define a custom field for a type of information for the PIM Module that you
+require.
+The Admin Module is only available to the administrator, an ESS User ESS or ESS - Supervisor
+cannot view the Admin Module unless a new user is created and an employee is assigned to use it.
+In this case the Admin can give this user full access or choose the privileges the particular user
+might require. For more information see chapter 4.7.3.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Company Info
+All information about the company, the company structure, location, and company property can be
+defined here.
+
+General
+You can enter the basic details of the company here.
+To start entering information click “Edit” and click “Reset” to reset.
+
+Figure 4.1
+
+Locations
+Here you can store all the details of sites, work stations, and branches in your company.
+Once you select the option from the menu the screen show on figure 4.2 will appear, to add a detail
+click “Add” and the screen on figure 4.3 will appear.
+Once you have added click “Save” and the location will be listed.
+
+Figure 4.2
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Once a location is added it will be listed as shown on figure 4.3 You can enter multiple locations. To
+view details of a location by click the Location Id, Location name, or City Name.
+To delete a location click on the check box next to the location id, it is also possible to delete
+multiple entries at the same time. Once you have selected the entries you wish to delete simply click
+“Delete”.
+
+Figure 4.3
+
+Company Structure
+This feature as allows defining the hierarchy of the company. By defining departments, divisions
+and teams you can assign individuals with projects and track the location with ease.
+Since the parent company is already defined in the company info you will be able to see this once
+you select the company structure.
+Please note that you need to define the company name of the parent company before you create the
+company structure.
+
+Figure 4.4
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+To add a department to the company structure click on the “Add” button next to the parent company
+and the screen shown on figure 4.5 will appear.
+
+Figure 4.5
+
+Once you have entered the fields click “Save” and the following screen shown in figure 4.6 will
+appear.
+
+Figure 4.6
+
+To add a sub-division click “+Add” option next to the relevant department, division or team as
+shown in figure 4.7
+
+Figure 4.7
+
+To delete an entry, you can simply click “-Delete” next to the relevant department.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Company Property
+The features allow entering details of company property and assign them to employees. This way
+you can track either who is in charge or who is using the property.
+To add properties select “Company Property”, click “Add” and the following screen shown on
+figure 4.8 will appear.
+
+Figure 4.8
+
+Define the property and click “Save”, you can then assign an employee from the list of employees
+on the drop down under “Employee” and click “Save” as shown in figure 4.9.
+
+Figure 4.9
+
+To delete an entry click on the check box next to the particular property and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Job
+All information with regards to Jobs in the company can be defined. The sub menu consists of the
+following items:
+ Job Titles
+ Job Specifications
+ Pay Grades
+ Employment Status
+ EEO Job Categories
+
+Job Specifications
+After selecting “Job Specifications” from the Job menu item click “Add” and the screen shown in
+figure 4.10 will appear.
+
+Figure 4.10
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Enter the name, description and duties of the relevant job and click “Save” and all the specifications
+added will be listed as shown in figure 4.11.
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple Job Specifications can be deleted simultaneously.
+
+Figure 4.11
+
+Pay Grades
+Here you can define the pay grade by setting a minimum salary, maximum salary, step increase, and
+the currency to be paid in.
+Select “Pay Grades” from the Job menu and click “Add” and define a name for the pay grade and
+click “Save”.
+
+Figure 4.12
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Once you click “Save” you will see the screen shown in 4.13. You can now define the pay grade by
+providing the details under “Assign New Currency”. You can assign multiple currencies here.
+
+Figure 4.13
+
+Each currency you define will listed as shown on figure 4.14
+
+Figure 4.14
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+You can edit details of a particular currency by clicking on the currency e.g. United States Dollar.
+All pay grades added will be listed as shown in figure in 4.15
+
+Figure 4.15
+
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Employment Status
+Employment Status allows you to define what basis he/she is hired in or if they are terminated.
+By default you will see 7 types of statuses pre-defined, but you can either enter a new one or edit an
+existing one except for “Terminated”. “Terminated” remains fixed you cannot delete this status.
+
+Figure 4.16
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+To add a new status click “Add” and the screen shown in figure 4.17 will appear.
+
+Figure 4.17
+
+To edit an existing Employment status click on the “Employee Status ID” or “Employee Status
+Name” you wish to edit and click “Edit”. Once you have made the change click “Save”.
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+EEO Job Categories
+Through this feature you can add, delete and edit EEO Job Categories. There are 8 pre-defined EEO
+Job Categories.
+
+Figure 4.18
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+You can enter a new category by simply clicking “Add” and then defining a “Title” and click
+“Save”.
+
+Figure 4.19
+
+To edit an existing category click on the particular “EEO Job Category Name” or “EEO Job
+Category Id” then click “Edit” to do the changes and click “Save” once you are done.
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Licenses
+You can define various types of licenses of your choice which can be later used in the PIM Module.
+To add an entry select “License”, click on “Add” and you will see the screen shown on figure 4.20.
+
+Figure 4.20
+
+Key in a description for the type of license you wish to enter and click “Save”. You will be then
+seeing your entry as shown in figure 4.21.
+
+Figure 4.21
+
+You can edit an entry by clicking on the particular “License Id, Course or License Description”.
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Qualification
+This feature allows you to define all information with regards to qualifications. You can define
+educational qualifications and licenses.
+
+Education
+You can define various types of educational qualifications of your choice which can be later used in
+the PIM Module.
+To add an entry select “Education”, click on “Add” and you will see the screen shown on figure
+4.22.
+
+Figure 4.22
+
+Fill the fields and click “Save” and you will see the entry as shown in figure 4.23.
+
+Figure 4.23
+
+You can edit an entry by clicking on the particular “Education Id, Course or Institute”.
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Licenses
+You can define various types of licenses of your choice which can be later used in the PIM Module.
+To add an entry select “License”, click on “Add” and you will see the screen shown on figure 4.24.
+
+Figure 4.24
+
+Key in a description for the type of license you wish to enter and click “Save”. You will be then
+seeing your entry as shown in figure 4.25
+
+Figure 4.25
+
+You can edit an entry by clicking on the particular “License Id, Course or License Description”.
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Skills
+This feature allows you to define all information with regards to skills and languages.
+
+Skills
+You can define various types of skill sets which can be later used on the PIM Module. To add a skill
+click “Add”, you will then see the screen on figure 4.26.
+
+Figure 4.26
+
+Key in a name and description for the type of skill you wish to enter and click “Save”. You will be
+then seeing your entry as shown in figure 4.26.
+
+Figure 4.27
+
+You can edit an entry by clicking on the particular “Skill Id or Skill Name”.
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Languages
+Different types of languages that employees in your company speak can be defined here and can be
+used in The PIM Module later. To add a language select “Languages” and click on “Add”, you will
+then see the screen on figure 4.28.
+
+Figure 4.28
+
+Fill the name of the language and click “Save” and you will see the entry as shown in figure 4.28.
+
+Figure 4.29
+
+You can edit an entry by clicking on the particular “Language Id or Language Name”.
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Memberships
+All information about membership types and memberships can entered here which can be later used
+in the PIM Module.
+
+Membership Types
+Various membership types can be defined here. To add a membership type go to “Membership
+Types” select “Add” and the screen shown on figure 4.30 will appear.
+
+Figure 4.30
+
+Fill the name of the membership and click “Save” and you will see the entry as shown in figure
+4.31.
+
+Figure 4.31
+
+You can edit an entry by clicking on the particular “Language Id or Language Name”.
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Memberships
+You can define memberships here. To add a membership click “Add”, you will see the screen
+shown in figure 4.32.
+
+Figure 4.32
+
+Fill the name of the membership and select from one of the membership types which you defined
+earlier and click “Save” and you will see the list of memberships as shown on figure 4.33.
+
+Figure 4.33
+
+You can edit an entry by clicking on the particular “Membership Id or Membership Name”.
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Nationality and Race
+All information about nationalities and ethnic races can entered here which can me later used in the
+PIM Module.
+
+Nationality
+Various nationalities can be defined here. To add a nationality go to “Nationality” select “Add” and
+the screen shown on figure 4.34 will appear.
+
+Figure 4.34
+
+Fill the nationality name and click “Save” and the nationalities you defined will appear as shown on
+figure 4.35.
+
+Figure 4.35
+
+You can edit an entry by clicking on the particular “Nationality Id or Nationality Name”.
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Ethnic Races
+Different types of ethnic races of the employees can define here. To add a race select “Ethnic
+Races” and click on “Add” you will the see the screen show on figure 4.36
+
+Figure 4.36
+
+Fill the race name and click “Save” and the names you defined will appear as shown on figure 4.37.
+
+Figure 4.37
+
+You can edit an entry by clicking on the particular “Ethnic Race Id or Ethnic Race Name”.
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Users
+Administering of users by creating logins, groups and defining privileges are done through this
+menu Item.
+
+HR Admin Users
+HR Admin Users feature allows you to create special logins for HR personnel. The Admin can
+decide into what user group he will fall into. Read chapter 4.7.3 on how to define user groups.
+To create an HR Admin User select “HR Admin Users” and click on “Add” you will then see the
+screen on figure 4.38.
+
+Figure 4.38
+
+Enter the following to create a user
+ Username
+ Password
+ Confirm Password (Re-enter the password)
+ Status – Enabled or disabled
+ Employee – If the HR Admin user is an existing employee you can select him from here,
+but the employee needs to be defined in the PIM Module.
+ Admin User Group - Depending on the privileges the user needs you can assign him to a
+user group. Please note that the default user group available will be Admin, assigning this
+group will give the user full access. Read chapter 4.7.3 on how to define user groups.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Once you have defined the fields click “Save” and the group will be listed as shown on figure 4.39.
+
+Figure 4.39
+
+You can edit an entry by clicking on the particular “User Id or User Name”.
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+ESS Users
+Through the ESS Users function you create user accounts for all the employees in your company. In
+other words here you can create a username and password for the ESS User. This information has to
+be communicated to user manually.
+To create a user account select “ESS User” and click on “Add” and the screen shown on figure 4.40
+will appear.
+
+Figure 4.40
+
+Enter the following to create a user
+ Username
+ Password
+ Confirm Password (Re-enter the password)
+ Status – Enabled or disabled
+ Employee – Select the employee who will be using this username and password. Please
+note that employee information needs to be defined in the PIM Module before creating user
+accounts. For more information see chapter 5.0
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+In case the ESS User forgets the password the admin can simply type in new or default password
+for the user by selecting the particular employee from the ESS Users menu and click “Edit” and
+type in the new or default password and click “Save.”
+The user accounts you create will be listed as shown in figure 4.41.
+
+Figure 4.41
+
+Admin User Groups
+By defining user groups full or partial access can be given to other HR personnel or employees of
+your choice. The admin can select what modules and in each module what privileges he/she will
+have in them. E.g. Read, Write, Delete or Full Control.
+These groups will be then available for selection on the drop down menus in the HR Admin Users.
+You can create an Admin User Group by following the steps below:
+ Select “Admin User Group” and click “Add” you will then see the screen shown on figure
+4.42.
+
+Figure 4.42
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+ Enter a name for the user group and click “Save”, you will then see the screen shown on
+figure 4.43.
+
+Figure 4.43
+
+ From the drop down box next to module, select the particular module and set the rights by
+clicking on the check boxes.
+ Add – Will allow you to add information to the particular module.
+ Delete – User can delete information from the particular module.
+ Edit – Will allow the user to edit information previously entered.
+ View – The user will be only able to view information on the particular module.
+Once you set rights to a particular module click “Save” and you will see your entry as
+shown on figure 4.44.
+
+Figure 4.44
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+You can define many groups with various privilege combinations. The groups you create will be
+listed as shown on figure 4.45.
+
+Figure 4.45
+
+You can edit an entry by clicking on the particular “User Group Id or User Group Name”.
+To delete an entry click on the check box next to the particular group and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Email Notifications
+This feature allows you to subscribe to receive notifications and to configure the parameters to
+setup the email so that notifications with regards to the following will be sent to the relavant people
+which will quicken the communications;
+ Leave applications
+ Leave approvals
+ Leave cancellations
+ Leave rejections
+ Job Applications
+ New employee hire approval requests
+ Tasks sent on hiring of employee
+ Notifications of hiring new employees
+ HSP notifications
+
+Configuration
+Configuration of mail settings is essential to accommodate sending and receiving notifications
+related to the operations performed within OrangeHRM (for example, leave management and time
+sheet administration). Figure 4.46 shows the email configuration screen.
+
+Figure 4.46
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Enter the fields accurately and you can check by sending a test mail to an email address of your
+choice.
+Click “Save” when you have entered all the settings and you check the email account if you
+specified an address to receive the test mail.
+
+Subscribe
+This feature will allow the admin to subscribe to email notifications that will be sent to the
+employees and supervisors in the system.
+A copy of the mail will be sent to the email address specified by the Admin. He can also select what
+copies of notifications he should receive.
+
+Figure 4.47
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Project Info
+Here information regarding projects, project administrator customers and project activities can be
+defined which can be later used for project management activities.
+
+Customers
+You can enter details of your customers that can be used to define projects and project activities.
+To add a customer select “Customers” and click “Add” you will then see the screen shown on figure
+4.48.
+
+Figure 4.48
+
+Enter the details and click “Save” and the customers will be listed as shown on figure 4.49.
+
+Figure 4.49
+
+You can edit an entry by clicking on the particular “Customer Id or Customer Name”.
+To delete an entry click on the check box next to the particular customer and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Projects
+The administrators are able to define the projects, which were/are/will be managed by the company.
+The projects being displayed are shown on the figure 4.50.
+To add a project click “Add” and the screen shown on figure 4.51 will appear.
+
+Figure 4.50
+
+Once you have defined the project, click “Save” and the “Project Administrators” option will appear
+as shown on figure 4.51.
+
+Figure 4.51
+
+Click “Add” to assign employees who will be handling the project. You can also add multiple
+employees. Enter the name of the employee and click “Assign” you will then see the list as shown
+on figure 4.52.
+
+Figure 4.52
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+You can add or delete employees from the project at any point of time you wish.
+The Project Activities entered will be listed as shown on figure 4.53.
+
+Figure 4.53
+
+You can edit an entry by clicking on the particular “Project Id or Project Name”.
+To delete an entry click on the check box next to the particular project and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Project Activities
+This section allows managing the activities, associated with the projects, that the company is
+undertaking.
+Select “Project Activities” and the screen shown on figure 4.54 will appear.
+
+Figure 4.54
+
+To define activities to a project select the particular project from the drop down and then click
+“Add” and you will then see a text box where you can define the activities.
+
+Figure 4.55
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+You can add multiple activities to a project.
+ Administrator – HR Admin – can manage the activities for any project of the
+company.
+ Project Administrator – ESS User assigned as the Project Administrator for one or more
+projects – can manage the activities only for his projects.
+The activities you enter will be listed as shown on figure 4.56.
+
+Figure 4.56
+
+You can edit the activity by clicking on the particular activity and delete activities by clicking on the
+check boxes.
+Multiple selections can be deleted simultaneously.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Data Import / Export
+This feature allows importing and exporting of data in and out of the PIM module. Rather than
+feeding employee details one by one you can import details from a csv file or you can export details
+all of the employees out of the system into a csv file for any other use.
+
+Define Custom Export
+You can define criteria that need to be exported. A custom export is already defined if you are using
+Millennium Payroll. You can define many export criteria with different combinations which can be
+used in the “Export” feature.
+To define a custom export select “Define Custom Export” and click “Add” you will then see the
+screen shown on figure 4.57.
+
+Figure 4.57
+
+Define a Name for the export and select the fields you need to be exported from “Available Fields”
+on the right of the screen and click “Add”. To add multiple fields press “Control” on your keyboard
+while selecting.
+Once you have added those fields they will reflect on the “Assigned Fields”.
+To remove fields from the “Assigned Fields” select the fields and click “Remove”.
+You arrange them in any order by selecting the fields and moving then up or down using the arrows
+on the right of the screen.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Click “Save” once you are done and you will see the export criteria you defined as shown on figure
+4.58.
+
+Figure 4.58
+
+Here you can edit the headings of the columns that need to be reflected on the csv.
+For e.g. you can select the “Salary” field to reflect as “Remuneration” or any heading of your
+choice on the CSV.
+Click “Save” again to confirm and then you will see the custom export you defined as shown on
+figure 4.59.
+
+Figure 4.59
+
+You can edit an entry by clicking on the particular “Id or Export Name”.
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Export
+Export allows exporting data from the PIM Module on to a csv file depending on the custom
+exports that were defined earlier.
+To export data select a defined export from the drop down and click “Export”. You will then receive
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+a message asking to save or open your report. See figure 4.60 and figure 4.61.
+
+Figure 4.60
+
+Figure 4.61
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Define Custom Import
+You can define criteria that need to be imported. You can define many import criteria with different
+combinations which can be used in the “Import” feature.
+To define a custom export select “Define Custom Import” and click “Add” you will then see the
+screen shown on figure 4.62.
+
+Figure 4.62
+
+Define a Name for the import and select the fields you need to be imported from “Available Fields”
+on the right of the screen and click “Add”. To add multiple fields press “Control” on your keyboard
+while selecting.
+Once you have added those fields they will reflect on the “Assigned Fields”.
+To remove fields from the “Assigned Fields” select the fields and click “Remove”.
+You arrange them in any order by selecting the fields and moving then up or down using the arrows
+on the right of the screen.
+Click “Save” and the custom import you defined will appear as shown on figure 4.63.
+
+Figure 4.63
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+You can edit an entry by clicking on the particular “ID”.
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Import
+Import allows importing data from the CSV’s on to the PIM Module depending on the custom
+exports that were defined earlier. Make sure the fields defined on the custom import matches those
+fields on the csv.
+To Import data select a defined import from the drop down and click “Browse” to select the csv file
+that contains the details that need to be important. If your import is successful you will see the
+screen shown on figure 4.64 and the employees you added will reflect on the PIM Module.
+
+100%
+
+Import Successful
+Figure 4.10.4.3
+Figure 4.64
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Custom Fields
+Custom fields can be defined which will reflect in PIM Module to define employees. You can define
+a custom field if you need to enter any information that is not available on the PIM Module.
+To add custom fields select “Custom Fields”, click “Add” and then you will see the screen shown
+on figure 4.65.
+
+Figure 4.65
+
+Enter a “Field Name” and “Type” by selecting either information to be a string type or drop down.
+If you select drop down enter allowed options separated by commas. Click “Save” and you will see
+the screen shown on figure 4.66 with the fields you defined.
+
+Figure 4.66
+
+You can now see these fields on the PIM Module under “Custom” as shown in figure 4.67 and 4.68.
+
+Figure 4.67
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Figure 4.68
+
+You can edit an entry by clicking on the particular “Custom Field Id or Custom Field Name”.
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Audit Trail
+The audit trail is available under the Admin Tab, the following screen shown on figure 4.69 will
+appear upon clicking it.
+Select the following to run a report;
+ A date from & to which you want view changes
+ The kind of action that you want
+ The field that you want to run the report on
+ You can view changes made by a particular user by selecting either a user or employee
+ID
+ Check the type of changes you wish to view
+ Click search to view the results, an example is shown on figure 4.70
+
+Figure 4.69
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Figure 4.70
+
+Bulletins/News
+Important news can be input here and all users will be able to see this on there homepage.
+Select Bulletins/News from the Admin Tab and click add and you will see the following screen
+shown on figure 4.71.
+Submit a news by entering the following;
+•
+
+Enter a topic and the date on which the topic was created, an order for Ex. 01 means this
+news will be displayed 1st.
+
+•
+
+Enter the body of the news.
+
+Figure 4.71
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+•
+
+Submitted news will be visible to employees upon login as shown below.
+
+Figure 4.72
+
+HR Forms & Policies
+HR policies of the company can be stored be stored here. Select HR Policies from the Admin Tab
+and you will see the screen shown on figure 4.73.
+To enter a policy;
+ Enter a topic
+ Created Date
+ Order in which the policy should appear, 01 will be the first
+ If the policy has a attachment that employees will be needed to download you can attach
+them by clicking browse and selecting the file.
+ Enter the description of the policy.
+Entered policies will be shown as in figure 4.74.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Figure 4.73
+
+Figure 4.74
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Notifications
+This feature allows you to add notifications of import dates listed below;
+1. Date of birth
+2. Driving license expiry
+3. Passport/Visa expiry
+4. License expiry
+5. Membership expiry
+6. Employee contract expiry
+To add a notification select “Notifications” from the Admin tab. Click “Add” to set a new
+notification.
+Fill in the form shown on figure 4.75 and click “Save”.
+
+Figure 4.75
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+5.0 PIM Module
+This core module maintains all relevant employee related information, including different types of
+personal information, detailed qualifications and work experience, job related information etc.
+Information captured in this module is utilized by all other modules, thus eliminating data
+redundancy.
+Records can be either entered manually one by one or imported from a csv file. You cannot import
+all the details but you can edit the remaining fields.
+
+Figure 5.1
+
+Employee List
+Lists all the employees’ entered and imported into the PIM. You can view details of a particular
+employee by clicking on the employee’s name.
+Figure 5.2 shows an example.
+
+Figure 5.2
+
+You can edit an entry by clicking on the particular “Employee Name”.
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Add Employee
+A new employee is added to the system here. Other than importing details this feature allows to add an
+employee and define a very informative profile.
+To add an employee simply click on “Add Employee” under the “PIM” menu and the following screen shown
+on figure 5.3 will be shown.
+
+Figure 5.3
+
+Enter the fields and you can also add a picture of the employee. To add a picture click on “Browse” and
+select the picture from the relavant path and click “Open”. Employee code is generated automatically, but
+can be changed if required.
+Please note that the maximum file size of the picture cannot exceed 1 megabyte and the picture should be
+in .jpg.
+Click “Save” when you have finished and you will see the screen shown on figure 5.4.
+
+Figure 5.4
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+The menu on the left will show all the possible information that can be entered about an
+employee.
+
+Personal details
+Once you have added an employee from the screen shown on figure 5.2.1 and save the “Personal
+Details” is the default screen you would see with the details you entered about him.
+You can then edit the other personal information listed below by clicking “Edit” on the bottom of
+the screen.
+You can edit the following;
+ Code – Employee Id/No
+ Last Name
+ First Name
+ Middle Name
+ Nick Name
+ SSN No. – Social Security Number
+ Nationality – Select from a list of pre-defined nationalities
+ SIN No. – Social Insurance Number
+ Date of Birth – Select the date by clicking on the calendar icon or enter manually with
+Year-Month-Date
+ Other Id
+ Marital Status – Select from the drop down
+ Smoker – If the employee is a smoker click on the box
+ Gender – Click on the relavant gender
+ Driver’s License Number
+ License Expiry Date
+ Military Service
+ Ethnic Race – Select from a list of pre-defined ethnic races
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Once you completed this form click “Reset” to RESET the details that were entered last or click
+“Save” to save the information. You can also add details later on.
+
+Contact Details
+Contact information of an employee can be entered from here. You will see the screen shown on
+figure 5.5 when you select “Contact Details”.
+
+Figure 5.5
+
+You can edit the following;
+ Country – Select the country from the drop down
+ Street 1
+ Street 2
+ City/Town
+ State/Province – If the country is United Sates you can select from the drop down or
+you need to enter it manually
+ ZIP Code
+ Home Telephone
+ Mobile
+ Work Telephone
+ Work Email
+ Other Email
+Once you completed this form click “Reset” to reset the details that were entered last or click
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+“Save” to save the information. You can also add details later on.
+
+Emergency Contacts
+Contact details of an employee which will be needed during an emergency can be entered here. You
+can enter more than one emergency contact. The screen shown on figure 5.6 shows a defined
+contact and the information that has to be entered to create a new one.
+To create a contact you need to enter;
+ Name
+ Relationship
+ Home Telephone
+ Mobile
+ Work Telephone
+Enter the details and press save. Saved contacts will be listed as shown on figure 5.6.
+
+Figure 5.6
+
+You can edit an entry by clicking on the particular “Name” of the assigned emergency contacts.
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Dependants
+If an employee has any dependants you can enter them here. You will see the screen shown on
+figure 5.7 once you select “Dependants”.
+Enter the details and press save for each item. Saved items will be listed as shown on figure 5.2.4.1.
+
+Figure 5.7
+
+You can edit an entry by clicking on the particular “Name” of the Dependant.
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Immigration
+Immigration information can be entered here. Enter the details and click “Save” for each item.
+Saved items will be listed as shown on figure 5.8.
+
+Figure 5.8
+
+You can edit an entry by clicking on “Passport/Visa”.
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Photograph
+A picture of the employee can be added here. Simply click “Browse” and select the file that you
+will upload and click “Save”.
+Please note that the file size of the insurance should be less than 1 megabyte and the format should
+be jpg.
+
+Figure 5.9
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Job
+Describe an employee’s role in the company by defining the fields shown on the 5.10.
+
+Figure 5.10
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Salary
+Information with regards to salary of an employee is entered here. You can select what pay grade he
+will fall into, his salary details and the pay frequency. Enter the details and click “Save” for each
+item. Saved items will be listed as shown on figure 5.11.
+
+Figure 5.11
+
+You can edit an entry by clicking on the particular “Currency”.
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Tax Exemptions
+If an employee is suppose receive any tax exemptions those details can be defined here. Enter the
+relavant information and click “Save”.
+The tax exemption screen is shown on figure 5.12.
+
+Figure 5.12
+
+Click “Edit” to edit make changes.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Direct Deposit
+If salaries of employees are to be transferred or deposited into accounts, those details can be
+specified here.
+Multiple accounts with different amounts can be assigned.
+Define the details and click “Save” and your entry will be listed as shown on figure 5.13.
+
+Figure 5.13
+
+You can edit an entry by clicking on the particular “Account”.
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Report-To
+Here you can define to whom the particular employee will report-to or who his subordinates are.
+Once this is done the particular supervisor will be able to view the following when he logs in;
+ PIM of the particular employee
+ Leave Summary of his subordinates
+ Leave List of his subordinates
+ Attendance Report of his subordinates
+ Time Sheets of his subordinates
+You can set an employee to report-to more than one supervisor and a supervisor can have many
+subordinates who report to him.
+Once the details are filled in click “Save” and the entries will be listed as shown on figure 5.14.
+
+Figure 5.14
+
+You can edit an entry by clicking on the particular supervisors or subordinates “Id”.
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Work Experience
+Previous work experiences of an employee can be entered here. Enter the details and click “Save”
+and the details will be listed as shown on figure 5.15.
+
+Figure 5.15
+
+You can edit an entry by clicking on the particular “Work Experience ID”.
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Education
+Education details of an employee can be entered here. Enter the details and click “Save” the
+qualifications will be listed as shown on figure 5.16.
+
+Figure 5.16
+
+You can edit an entry by clicking on the particular “Education”.
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Skills
+If an employee has any special talents or skills they can be entered here. The entries that you enter
+will be listed as follows.
+
+Figure 5.17
+
+You can edit an entry by clicking on the particular “Skill”.
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Languages
+Here you can enter the various languages that your employees are competent in with the level of
+competency.
+Once you have entered the details click “Save” and your entry will be listed as shown on figure
+5.18.
+
+Figure 5.18
+
+You can edit an entry by clicking on the particular “Language”.
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+License
+Here you can enter the licenses an employee can have. Enter the details and click “Save” and the
+entry will be listed as shown on figure 5.19.
+
+Figure 5.19
+
+You can edit an entry by clicking on the particular “License”.
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Memberships
+If employees are members of any committee, institute etc. those details can be entered here. Define
+the membership for the employee and click “Save” you will then see the entry listed as shown on
+figure 5.20.
+
+Figure 5.20
+
+You can edit an entry by clicking on the particular “Membership”.
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Attachments
+Supporting documents of a particular employee that might be needed by the management can be
+attached here. For example you can attach documents like personal profile, certificates or the
+resume of an employee.
+Please note that each document can not exceed 1 megabyte, but you can attach more than one
+document. To attach click “Browse” select the file and attach it.
+Your attachments will listed as shown on figure 5.21.
+
+Figure 5.21
+
+To delete an entry click on the check box next to the particular entry and click “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Custom
+Custom features will show the custom fields that you defined in the “Admin Module”. A custom
+field can be defined when a particular data type that you need is not available. On figure 5.22 we
+have shown the level of access to information through a custom field labeled “Security Clearance”.
+
+Figure 5.22
+
+Training Courses
+This will list all the approved training courses that were scheduled for the employee. Once the
+employee has attended them, they have the optioned marking the partcular course as competed as
+shown on figure 5.23.
+
+Figure 5.23
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+6.0 Leave Module
+A comprehensive leave management module with extensive possibilities of defining leave types,
+company holidays, applying for and assigning of leave for the employees of the company.
+It caters for all application and approval processes and is able to display information on leave
+entitlement, balance, history etc.
+The functionality of the Leave module differs depending on the rights of the user. The Leave
+module will be described from the perspective of an administrator, an ESS User who is a supervisor
+and the normal ESS user.
+The Admin can:
+ View Leave Summary for each employee and entitle leave days of each available type
+ Define Days off and Specific Holidays
+ Define Leave Types
+ Assign Leave for any employee
+ See Scheduled Leave for any employee
+ See list of Taken Leave for any employee
+ If the admin user is an employee then he will see the ‘Apply’ ‘My Leave’ and ‘Personal
+Leave Summary’ options along with the rest of the features
+ View the leave calendar which will display all types of leaves for a month for all or
+individual departments.
+A Supervisor can:
+ View the Personal or Employee (subordinate) Leave Summary
+ View the Leave List
+ Apply Leave
+ Assign Leave for his/her subordinates
+ Approve/Reject Leave for his/her subordinates
+ View the leave calendar which will display all types of leaves for a month for all
+subordinates or for his division.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+The ESS User can:
+ View the ‘Personal Leave Summary’
+ View the detailed leave information
+ Apply for leave
+ View the leave calendar which will display all his leave during a particular month
+
+Leave Summary
+This feature allows you view the summary of the leave and also assign leave quota. The menu will
+show data depending on the user type.
+The Admin will see “Employee Leave Summary” and has full rights.
+ESS User who is a supervisor will see “Employee Leave Summary” (subordinates only) and the
+“Personal Leave Summary” and has viewing rights only.
+An ESS User will see “Personal Leave Summary” and has viewing rights only.
+
+Employee Leave Summary
+To view the leave summary of employees select “Employee Leave Summary” you will see the
+screen shown on figure 6.1.
+
+Figure 6.1
+
+To assign leave quota or view details select the particular “Year”, a particular employee or all
+employees, and “Leave Type” and click “View” and the screen shown on figure 6.2 will appear.
+
+Figure 6.2
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Please note that only the admin can add leave quota. Click “Edit” and the “Leave Entitled (days)”
+will become editable and you can enter that particular employee’s entitlement.
+Once you have entered entitlements for each “Leave Type” click “Save”.
+
+Personal Leave Summary
+This feature will be available to ESS Users, ESS Supervisors.
+This feature shows the leave summary of the particular employee logged in.
+Figure 6.3 shows an example.
+
+Figure 6.3
+
+Define Days Off
+By selecting Define Days Off, the Admin can define the days off that will be applicable to the entire
+company and will be taken into consideration while calculating leave duration. Please note that this
+feature has to be defined by the Admin on any other user in the Admin User Group.
+Days off have been classified into:
+•
+
+Weekends
+
+•
+
+Specific Holidays
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Weekends
+Here you can define the weekends or the days of the week that the company does not operate on.
+The screen shown on figure 6.3 is an example. Define the days by selecting an option from the drop
+down. Click “Save” once your have defined all the days. Please note that weekends have to be
+defined before applying or assigning leave.
+
+Figure 6.3
+
+Specific Holidays
+The admin can define “Specific Holidays”, these holidays will be applicable to the entire company
+and will be taken into consideration while calculating leave duration.
+Click “Add” you will see the screen shown on figure 6.4.
+
+Figure 6.4
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Enter the “Name of Holiday” and “Date” it will occur and checking the “Repeats Annually” will
+mean that the holiday will occur on the same date in the years to come. Click “Save” once you have
+defined a holiday. You will see the list of holidays as shown in figure 6.5.
+
+Figure 6.5
+
+You can edit an entry by clicking on the particular “Name of Holiday”.
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Define Leave Types
+Through this section the admin and any other user with admin rights will be able to define leave
+types, which are compatible with the HR policies of the company. Click “Add” and you will see the
+screen shown on figure 6.3.1. Casual and medical leave are set by default.
+
+Figure 6.6
+
+Enter name of the leave type you wish and click “Save”. The list of defined leave will be displayed
+as shown on figure 6.7.
+
+Figure 6.7
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+To edit a leave type click on “Edit” do the changes and click “Save”. The “Reset” option will take
+back to the content which was there after the last “Save”.
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Assign Leave
+The Admin and Supervisor have the right to assign leave. The ESS – Supervisor has rights to assign
+leave to his subordinates and admin to all employees.
+
+Figure 6.8
+
+Select the name of the employee, you can do this by entering the first letter of his name and you
+will see list of employees with that letter and you can select the relevant employee, then select the
+leave type, the dates from which he is suppose to be off and you can add a comment if necessary.
+Click “Assign” when you are done and the employee and the admin will be notified via e-mail.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Apply
+All users except for the admin unless he is an employee can apply leave from this option. To apply a
+leave select “Apply” you will the see the screen shown on figure 6.9.
+
+Figure 6.9
+
+Select the leave type and the “From Date” and “To Date” you require the leave, once you select the
+dates you will see the “From Time”, “To Time” and “Total Hours”, you can enter the times just
+enter the number of hours and add a comment on why you need the leave.
+Once you have filled in the details click “Apply” and a mail will be sent to the Supervisor and the
+Admin for approval. The status of your leave application can be seen in “My Leave”, see chapter
+for more information.
+
+Leave List
+The leave list is available to the Admin and ESS – Supervisors. It will show all the information with
+regards to leave statuses and the following tasks can be performed;
+ Reject
+ Cancel
+ Approve
+The ESS – Supervisor will only see the leave list of his subordinates while the Admin can view the
+entire list.
+When an employee applies for a leave his Supervisor and Admin will receive a mail with a link to
+the leave list and upon clicking on that link either the Supervisor or the Admin can approve, reject
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+or cancel the leave.
+Once the status is changed make sure you click “Save”, a mail will be then sent to the employee and
+he can be the status of his leave application.
+Figure 6.10 shows a set of leave and the status of the leave.
+
+Figure 6.10
+
+You can view leaves between specific periods by specifying the “From” and “To” dates.
+You can also view the complete leave list with all the status or any combination of the following;
+ Rejected
+ Canceled
+ Pending Approval
+ Approved
+ Taken
+ Weekend
+ Holiday
+
+My Leave
+This menu item is available for ESS Users and ESS Supervisors. Personal leave details can be
+viewed here.
+
+Figure 6.11
+
+An employee can choose to cancel a pending approval leave or an approved leave. He cannot make
+any changes to any other leave status.
+He can view complete details of leaves by clicking on the “Date”.
+To make a status change click on the drop down select “Cancel” and click “Save”.
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+If the email notifications functionality has been configured (see section 4.8 for more information),
+email notifications on leave application, cancellations, rejections, and approvals will be sent to the
+Employee, who has applied for leave, and to the Admin Users, who have subscribed for the leave
+management mail notifications.
+Leave Calendar
+The leave calendar displays the leave scheduled and taken during a specific month. All users have
+this option, each user role can view the following;
+•
+
+Admin – Can view leave for the whole company or by division
+
+•
+
+Supervisor – Can view leave of all his subordinates or his division
+
+•
+
+ESS User – Can view leave his leave details.
+
+Select the relevant criteria and click view to generate he report. An example is shown on figure
+6.12.
+
+Figure 6.12
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+7.0 Time Module
+The Time Module automates attendance maintenance and punch in/out. The functionality of the
+module allows the employees of the company to create and submit weekly timesheets and the
+Supervisors to modify, approve and reject the timesheets, submitted by their subordinates.
+While attendance is tracked through punch in/out employees can specify the time spent of projects
+assigned to them.
+Depending on each user the functions vary;
+The Admin can:
+ Print Timesheets
+ View / Edit / Approve / Reject Employee Timesheets
+ View any employee’s time reports
+ View project reports for any project undertaken by the company
+ Define a work shift for an individual/group of employees
+The ESS – Supervisor can:
+ Enter, modify and submit personal timesheets
+ View / Edit / Approve / Reject timesheets of his subordinates
+ Enter punch in/out time
+ Enter time events spent on the project activities
+ View his subordinates’ employee time
+The ESS User can:
+ Enter, modify and submit personal timesheets
+ Enter punch in/out time
+ Enter the time events for the activities of the projects he/she is working on
+
+Time sheets
+This feature functions in different ways depending on who the user is.
+The Admin will be able to print and view timesheets of employees while a Supervisor can also do
+the same and in addition can enter his timesheet details, but a normal ESS User can only enter his
+timesheet details.
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Entering and Submitting a Timesheet
+When an ESS User clicks on “Timesheets” or an ESS – Supervisor clicks on “My Time Sheets” the
+screen shown on figure 7.1 will appear. This option is not available to the Admin. Please note the
+starting day of the week has to be defined before entering details on time sheets.
+
+Figure 7.1
+
+To enter details click “Edit” and enter the time spent on each project activity. You can add or
+remove rows and define times for various projects and activities at any time of the week. Each time
+click “Save”. Once times have been defined for the whole week then click “Save”.
+
+Figure 7.2
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+After saving the information click “Back” and go to the view screen and you will the details as
+shown in figure 7.3. You can submit the time sheet to your superior for approval, to do this click
+“Submit”, click “Edit” to make changes or click “Details” to see a detailed view.
+
+Figure 7.3
+
+Approving Employee Timesheets
+When an employee submits a time sheet it will be sent to his supervisor. The supervisor will see the
+submitted time sheets as shown in figure 7.4.
+
+Figure 7.4
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Click “View” to see the details of the timesheet.
+
+Figure 7.5
+
+The supervisor can approve or reject a timesheet by entering a comment.
+Once approved or rejected the particular employee will also be updated with the status.
+
+Figure 7.6
+
+An approved or rejected timesheet can be withdrawn to change the status by clicking “Reset”.
+The employee will see an approved or rejected timesheet as shown on figure 7.7.
+
+Figure 7.7
+
+The employee can move between timesheets by clicking “Previous” and “Next”.
+The Admin can view timesheets of any employee, but cannot approve or reject them; a user who is
+the Admin and a Supervisor can approve/reject timesheets of his subordinates.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Print Timesheets
+The administrators and supervisors can print time sheets of employees. Admin can print any
+employee’s time sheet whereas the supervisor can print timesheets of his subordinates.
+To print timesheets go to “Print Timesheets” and you will see the screen shown on figure 7.8.
+
+Figure 7.8
+
+Enter a employees name or select “All” and select the relevant “Divisions”, “Employment Status”,
+and the period “From” and “To” and click “View” and you will see the screen shown on figure 7.9.
+To extract a the details on to a csv click “Export to CSV” and save the file.
+
+Figure 7.9
+
+Click “Print” if you wish to print the timesheet or click “Back” to go back to the previous page.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Attendance
+All attendance records are maintained and recorded under attendance. Depending on the user the
+attendance functions vary.
+The Admin can:
+ Generate attendance reports for all the employees
+ Configure user rights with regards to attendance
+The ESS – Supervisor can:
+ Punch In/Out
+ View personal reports
+ View employee reports
+The ESS User can:
+ Punch In/Out
+ View personal time reports.
+
+Configuration
+The admin can select what privileges the employees and supervisors will have on the punch in/out
+and attendance.
+The screen shown on figure 7.10 shows the “Attendance Configuration”, to give rights to a
+particular item click on the check box to select it and click “Save”.
+
+Figure 7.10
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Punch In/Out
+This feature allows capturing the number of hours an employee spends working for the company.
+This feature is only available to the ESS – Supervisor and ESS User. To access the Punch In/Out
+time, user should select Punch In/Out menu item under the Time Module. The screen, shown in the
+figure 7.11 will be displayed.
+
+7.2.1 Employee Reports
+
+Figure 7.11
+
+Employee Reports
+Here the Admin and ESS – Supervisor can view and edit attendance reports of employees.
+To view employee reports select “Employee Reports” from “Attendance” and the screen shown on
+figure 7.12 will appear.
+
+Figure 7.12
+
+Select the employee and the “From Date” and “To Date” and the type of report you wish to view,
+and then click “Generate”.
+Please note that edits can be only made on a detail report.
+
+Figure 7.13
+
+Click “Save” if you make any changes.
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+My Reports
+Both an ESS – Supervisor and a ESS User can view detailed or summarized attendance reports and
+can edit submitted reports if the admin has given them rights to do so. The screen shown on figure
+7.14 is a sample of a personal employee report.
+
+Figure 7.14
+
+Employee Reports
+These reports are available only to the Admin. Here the Admin can track the time spent by
+employees on particular activities. To view an employee report select “Employee Reports” from the
+Time Module and the screen shown on figure 7.15 will appear.
+
+Figure 7.15
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+The screen shown on figure 7.16 shows a sample report.
+
+Figure 7.16
+
+Project Reports
+This feature is available for the Admin, ESS – Supervisors and ESS Users. The Admin can view can
+reports for all projects and the ESS – Supervisors and ESS Users can view reports on projects
+administered by them or projects assigned to them. The screen shown on figure 7.4.1 is a report
+generated by the Admin.
+
+Figure 7.17
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Click “View” to see details on a particular activity. A detailed view of an activity is shown on figure
+7.18.
+
+Figure 7.18
+
+Work Shifts
+The work shifts for individual or the group of employees can be defined only by the Admin. This
+can be done by selecting the “Work Shift” from the Time Module. The screen will be shown on
+figure 7.19 will appear.
+
+Figure 7.19
+
+Enter a name for the shift and how many hours the shift will last and then click “Add”. You will
+then see the shift you added listed as shown in figure 7.20.
+
+Figure 7.20
+
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+To add employees to a shift click on the particular shift and you will see the screen shown of figure
+7.21.
+
+Figure 7.21
+
+To add an employee to the shift, click on the employee’s name or for multiple selections hold “Ctrl”
+while selecting and then press “Add”.
+Vice versa you can remove employees from the shift by clicking “Remove”.
+Click “Save” once you are done.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+8.0 Benefits Module
+This module allows the Admin to define Health Savings Plans and define the Payroll Schedule for
+the company. The Benefit Module is also available for the ESS Users but with limited options. On
+the Benefits Module:
+The Admin can:
+ Define a health savings plan
+ View, Resume and Halt the employee HSP Summary
+ View HSP payments due
+ View HSP expenditures
+ View HSP used
+The ESS User can:
+ View personal HSP expenditure
+ Request HSP
+ View personal HSP summary
+
+Health Savings Plan
+The Admin can define a health savings plan and operate it via this feature. The Health Savings Plan
+menu consists the following items:
+ Define HSP
+ Employee HSP Summary
+ HSP Payments Due
+ HSP Expenditures
+ HSP Used
+
+Define HSP
+Here the admin can choose the type of HSP Plan the company wishes to implement.
+The abbreviations used are as follows:
+ HSA – Health Savings Account
+ HRA – Health Reimbursement Account
+ FSA – Flexible Spending Account
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Figure 8.1
+
+Select the HSP and click “Save”.
+
+Request HSP
+This option is available only to ESS Users. An ESS User can request for a HSP, to request select
+“Request HSP” from the Benefits Module, you will see the following screen shown on figure 8.2.
+
+Figure 8.2
+
+Enter the details and click “Submit”, the admin will then be notified via an email about your
+request.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Employee HSP Summary
+The Admin can define the contributions that have to be made for the plan, the Annual Limit,
+Employer contribution, Employee contribution, and the Total Accrued and Used will be calculated
+automatically. The Admin can also halt a plan by clicking “Halt” at the end of each entry. The
+Admin can view the HSP used list of a particular employee by clicking on the employee’s name.
+Figure 8.3 shows an example of an “Employee HSP Summary” and figure 8.4 shows an example of
+HSP used list.
+The Admin can extract the details on to PDF by clicking on “Save as PDF”.
+
+Figure 8.3
+
+Figure 8.4
+
+HSP Payments Due
+The payments which are due by an employee will be reflected here. Figure 8.5 shows an example
+with a list of payments that are due.
+
+Figure 8.5
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+HSP Expenditures
+This reflects the expenditures or claims that were made by employees on his HSP; The Admin can
+view the expenditure of all the employees while an ESS User can only view his personal HSP
+expenditure.
+The Admin can view a HSP Used List by selecting HSP Expenditures from the HSP menu and then
+he will see the screen shown on figure 8.6.
+
+Figure 8.6
+
+The year has to be selected from the drop down and the employee from the list that will pop up
+upon clicking on
+
+select an employee from the list to view his HSP expenditure.
+
+Figure 8.7 is shows an example of an employee’s HSP used list.
+
+Figure 8.7
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+HSP Used
+Here the Admin can view the HSP Used by an employee. To view HSP Used details of an employee
+select “HSP Used” from “Health Savings Plan” and then you will see the screen shown on figure
+8.8.
+
+Figure 8.8
+
+The year has to be selected from the drop down and the employee from the list that will pop up
+upon clicking on
+
+select an employee list to view his HSP Used.
+
+Personal HSP Summary
+This feature is available for the ESS User. The user can view details of his HSP here. The user can
+also request the admin to halt or resume his HSP plan by clicking on “Request Halt” or cancel the
+request by clicking “Cancel Halt Request”. The actions will be notified to the Admin via email.
+Figure 8.9 is an example of HSP Summary.
+
+Figure 8.9
+
+Payroll Schedule
+Here the Admin can define the pay period and define schedules. The Payroll Schedule consists of
+the following sub menus:
+ View Payroll Schedule
+ Add Pay Period
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+View Payroll Schedule
+The Admin can view a payroll schedule by selecting “View Payroll Schedule” from Payroll
+Schedule; upon selecting this, the following screen shown on figure 8.10 will appear.
+
+Figure 8.10
+
+Select the year and click “View”, you will then see the screen shown on figure 8.11.
+
+Figure 8.11
+
+This will show a summary of the payroll schedule, for a detailed view click on the “Check Date.”
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Add Pay Period
+The Admin can define on how often payments will be made to employees. To define a Pay Period
+select “Add Pay Period” from Payroll Schedule and the screen shown figure 8.12 will appear.
+
+Figure 8.12
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Enter the dates for the relevant fields and click “Save”, you will see the list of defined pay periods
+as shown on figure 8.13.
+
+Figure 8.13
+
+To view details of a pay period click on “Check Date”.
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+9.0 Recruitment Module
+The Recruitment module manages the recruitment process of a company. The Admin can create
+vacancies which will be listed on the link via jobs.php. A link has to be made on the website to take
+the applicant to jobs.php. When applicants are rejected, approved or when interviews are scheduled
+mails are send to them. Successful applicants are added to the system.
+
+Job Vacancies
+Here the Admin can create a vacancy for a particular job title required by the company. To add a
+vacancy select “Job Vacancies” and click “Add” and the following screen shown on figure 9.1 will
+appear.
+
+Figure 9.1
+
+Once the details has been entered click the “Active” check box if you want to start hiring right away
+or leave it blank if you intend to hire in the future.
+Click “Save” and the vacancy will be listed as shown on figure 9.2.
+
+Figure 9.2
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Applying for a Vacancy
+Both internal and external applicants can apply for a vacancy through jobs.php, for e.g.
+http://localhost/orangehrm2.5/jobs.php. The screen on figure 9.3 shows couple of active vacancies
+posted.
+
+Figure 9.3.
+
+An applicant can apply to a vacancy by clicking [+] and then click on “Apply”, the following
+application form shown on figure 9.4 will then appear.
+
+Figure 9.4
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+After entering the relevant information the applicant can choose to upload his resume or any other
+document.
+The applicant will see the message shown on figure 9.5 and will receive a mail confirming the
+submission. The Admin and the Hiring Manager will also will receive a mail about the application.
+
+Figure 9.5
+
+Applicants
+All the applicants who apply for a particular vacancy will be shown here in “Applicants” under the
+Recruitment Module. An example is shown on figure 9.6.
+
+Figure 9.6
+
+From here the Admin can:
+ Reject an application
+ Schedule an interview
+ Offer job
+ View event history
+ View Details
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Reject
+The Admin or Hiring Manager can turn down an application. To do so click on “Reject” option on
+the particular applicants tab and the screen shown on figure 9.7 will appear.
+
+Figure 9.7
+
+The Admin or Hiring Manager can add the reason for the rejection on “Notes” and click “Reject” or
+click “Cancel” to go back to the previous screen.
+If Admin rejects the application, the applicant will be notified via email.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Schedule an Interview
+The Admin or Hiring Manager can schedule an interview with applicant. To schedule an interview
+click on “Schedule an Interview” and the screen shown on figure 9.8 will appear.
+
+Figure 9.8
+
+The Admin or Hiring Manager can enter the date, time and assign a person to conduct the interview.
+Once done click “Save” and an email will be sent to the applicant and the interviewer.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+After the first interview the, Admin or Hiring Manager can schedule the second interview in the
+same way and here the hiring manager or the admin can attach the interview questions, results from
+the previous interview, a basic salary and joined date if applicable. The attachments will be
+automatically transferred to the PIM module if the employee is hired after the second interview.
+
+Figure 9.9
+
+Upon successfully completing the second interview the Hiring Manger or Admin can select to
+“Reject” or “Offer Job” as shown on figure 9.10.
+
+Figure 9.10
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Offer Job
+The Admin or Hiring Manager can offer the job by selecting “Offer Job”. Once this option is
+selected the screen shown on figure 9.11 will appear.
+
+Figure 9.11
+
+The Admin or Hiring Manager has to add the relevant notes for hiring and then click “Offer Job” to
+hire the applicant. The hiring has to be then approved by the relevant person as shown on figure
+9.12.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Mark Offer Declined
+If incase the offer was declined by the applicant then it can be listed as a declined offer from “Mark
+Offer Declined”. The following screen shown on figure 9.12 will appear.
+
+Figure 9.12
+
+Enter the reasons for the decline and click “Mark Offer Declined”.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Seek Approval
+The applicant will not be notified via email. He has to be contacted manually to communicate this
+information.
+
+Figure 9.13
+
+Select the person who has to approve the recruitment and add any notes if you wish and click
+“Save”.
+An email will be then sent to the Hiring Manager who has to approve the hiring.
+This particular Hiring Manger can select to “Approve” or “Reject” from the Recruitment Module on
+his login. The screen on figure 9.14 shows the status of an approved applicant.
+Once the Hiring Manger approves the applicant an entry in the PIM Module will be created for this
+new employee.
+
+Figure 9.14
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Event History & Details
+Event history will be a log of the stages of the recruitment process. An event history will be
+maintained separately for each applicant.
+During each stage of the recruitment the particular person involved can edit and add comments and
+change the status of the scheduled interviews. An example is shown on figure 9.15. Below the
+“Event History” the details of the applicant are available along with the status of his application.
+
+Figure 9.15
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Configure Application
+Here you can add and remove questions to the application form that will be filled in by the
+applicants during the submission of a job application.
+To edit the form select “Configure Application” from the Recruitment tab and click “Add” to add a
+new question to the form. Fill the relevant details shown on figure 9.16 and click “Save.”
+
+Figure 9.16
+
+Questions that are added will be displayed as shown on figure 9.17 and they can be deleted by
+checking the box next to each question and then click “Delete”.
+
+Figure 9.16
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Confirmation Email
+This option allows you to customize the automatic email that is sent out the applicant when an is
+submitted.
+To edit the confirmation email select “Confirmation Mail” from the Recruitment tab and you will
+see the screen shown on figure 9.17. Fill the relevant details and click “Save.”
+
+Figure 9.16
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+10.0 Training Module
+The training module allows admin & supervisors to create training request for employees.
+Employees can be assigned to follow these training courses and mark them as completed under the
+“Training Courses” tab.
+
+Adding Training Requests
+The admin & supervisors can create training requests, but training requests can only be approved by
+the admin.
+The admin can select “Training List” from the “Training” tab and then click “Add” to define a
+training request.
+The supervisor can add a training request by clicking on “Training Request” from the “Training”
+tab. Fill in the fields shown on figure 10.1, to add employees to the training select the employee and
+click “Add”. Requests created by superiors have to approved by the admin.
+
+Figure 10.1
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Supervisors can view all the training requests that have been created by the admin and other
+superiors. They can add their subordinates in the same way and click “Save”.
+
+11.0 Budgets Module
+This module allows you allocate budgets for training, salary and employee recruitment. The admin
+can select the job titles who will be able to approve budgets.
+
+Configuring Job Titles
+Select “Configure Job Titles” from the budgets module and the you will see the screen shown on
+figure 11.1.
+
+Figure 11.1
+
+To assign a job title click on the particular job titles and click “Add” and the “Save”.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Adding Budgets
+Select “Budget list” from the budgets module and the you will see the screen shown on figure 11.2.
+
+Figure 11.2
+
+Fill the form with relevant information and click “Save”. Once a budget is created any person who
+holds a job title with budget approving privileges can approve it.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+12.0 ESS
+This module is available to the ESS – Supervisor and the ESS User. Both these users will see this
+screen once they login or if they select “ESS” from the main menu.
+A user can only edit certain fields from the ESS Module, but he can view all the details relating.
+The following fields are restricted.
+Salary
+
+Pay Grade
+Currency
+Minimum salary
+Maximum Salary
+Basic Salary
+
+Personal Details
+
+Pay Frequency
+Code
+SSN No
+SIN No
+Driver License No
+
+Immigration
+
+Date Of Birth
+Passport/Visa
+Passport/Visa No
+19 Status
+19 Review Date
+Citizenship
+Issued Date
+Date of Expiry
+
+Photo Graph
+Job
+
+Comments
+Select a Photo
+Job Title
+Employment Status
+Jobs Specification
+Job Details
+EEO Job Category
+Joined Date
+Sub Division
+Locations
+Contract Extension Start Date
+
+Salary
+
+Contract Extension End Date
+Pay Grade
+Currency
+Minimum salary
+Maximum Salary
+Basic Salary
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Tax Exemptions
+
+Pay Frequency
+Status
+State
+Extension
+Unemployment State
+Work State
+Exceptions
+
+Direct Deposits
+
+Status
+Account
+Account Type
+Routing Number
+Amount
+
+Work Experience
+
+Transaction Type
+Employer
+Job Title
+Comments
+Start Date
+End Date
+
+Skills
+
+Internal
+Skill
+Years Of Experience
+
+Custom
+Training Courses
+
+Comments
+Custom
+Status of Courses
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+13.0 Reports Module
+Reports of various combinations can be defined here depending on the requirements.
+The Report Module menu contains the following sub menus:
+ View Reports
+ Define Reports
+
+Define Reports
+To generate reports the admin has to first define the criteria for the required reports. To define a
+report select “Define Reports” from the Reports Module, click “Add” and you will see the screen
+shown on figure 13.1.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+Figure 13.1
+
+Enter a name for the report, define the selection criteria and select the fields that need to be
+displayed.
+Click “Save” once you are done and you will see the screen shown n figure 13.2.
+
+Figure 13.2
+
+Here you select which user groups will have access to the reports you define.
+To edit a defined click on the particular “Report ID”.
+To delete an entry click on the check box next to the particular entry and press “Delete”.
+Multiple selections can be deleted simultaneously.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+View Reports
+Once reports are defined you can view them here. The defined reports will be listed as shown in
+figure 13.3.
+
+Figure 13.3
+
+You can view a report by clicking on the “Report ID” or export it to a csv file by clicking “Export”.
+Figure 13.4 is an example of a report.
+
+Figure 13.4
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+14.0 Bug Tracker
+In the event of any bugs being encountered while using the system, these bugs could be
+immediately reported on-line using the Bug Tracker Module. Therefore, this would facilitate the
+repair of any defects in the system. Information on bugs could be queried as well which makes it
+useful to determine the status of bugs which have already been reported and also to check whether
+new bugs have been reported that requires amendments/modifications.
+ Access the Bug Tracker by clicking on Bug Tracker from the top menu.
+ Enter the different criteria and description. See figure 14.1 below.
+
+Figure 14.1
+
+Once you have entered details about the bug click “Send”.
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+15.0 Help
+Help features help topics, professional OrangeHRM Support, Forum, and Blog.
+
+Help Contents
+Here you can get access to FAQ’s and the OrangeHRM Wiki to clarify further doubts on the
+product.
+http://www.orangehrm.com/wiki/index.php/Main_Page
+http://www.orangehrm.com/frequently-asked-questions.shtml
+
+Support
+This link will take you to the OrangeHRM Support Plan page and at any point of time you can
+choose to subscribe for professional assistance with queries on the product.
+http://www.orangehrm.com/promotion-plans.php
+
+Forum
+The OrangeHRM Forum is a place where all the users post there questions, comments and find outs
+about OrangeHRM.
+http://www.orangehrm.com/forum/
+
+Blog
+The Blog will be updated by us with articles about OrangeHRM and information with regards to
+releases and other useful topics.
+http://www.orangehrm.com/blog/
+Thank you for using OrangeHRM.
+For any clarifications with regards to this user guide please contact:
+Shaun Bradley
+Training Department
+shaun@orangehrm.com
+
+Copyright © 2010 OrangeHRM Live Inc. All Rights Reserved.
+
+
