@@ -1,0 +1,50 @@
+version: '3.8'
+
+services:
+  mariadb:
+    image: mariadb:10.11
+    container_name: orangehrm-mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: orangehrm
+      MYSQL_USER: orangehrm
+      MYSQL_PASSWORD: orangehrm
+    volumes:
+      - mariadb_data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    networks:
+      - orangehrm-network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  orangehrm:
+    image: orangehrm/orangehrm:5.7
+    container_name: orangehrm-app
+    depends_on:
+      mariadb:
+        condition: service_healthy
+    environment:
+      ORANGEHRM_DATABASE_HOST: mariadb
+      ORANGEHRM_DATABASE_PORT: 3306
+      ORANGEHRM_DATABASE_NAME: orangehrm
+      ORANGEHRM_DATABASE_USER: orangehrm
+      ORANGEHRM_DATABASE_PASSWORD: orangehrm
+    ports:
+      - "8080:80"
+      - "8443:443"
+    volumes:
+      - orangehrm_data:/var/www/html
+    networks:
+      - orangehrm-network
+
+volumes:
+  mariadb_data:
+  orangehrm_data:
+
+networks:
+  orangehrm-network:
+    driver: bridge
