@@ -41,3 +41,9 @@ traces/
 
 # Claude
 .claude/
+
+# Playwright
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
