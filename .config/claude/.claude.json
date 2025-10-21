@@ -1,0 +1,23 @@
+{
+  "projects": {
+    "/your/project/path": {
+      "allowedTools": [
+  "playwright:browser_navigate",
+  "playwright:browser_snapshot",
+  "playwright:browser_click",
+  "playwright:browser_type",
+  "playwright:browser_fill_form",
+  "playwright:browser_take_screenshot",
+  "playwright:browser_evaluate",
+  "playwright:browser_wait_for",
+  "playwright:browser_close"
+      ],
+      "mcpServers": {
+        "playwright": {
+          "command": "npx",
+          "args": ["-y", "@playwright/mcp-server"]
+        }
+      }
+    }
+  }
+}
